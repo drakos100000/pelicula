@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./fondo2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+ header{
+    background: #ff0404;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+ }
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.imagen_1 img{
+    width: 100px;
+    height: 65px;
+    float: left;
+    padding: 8px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 18px 0;
+    float: left;position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 139, 219);
+    font-weight: bold;
+    
+}
+
+nav ul li a::before{
+    display: block;
+    content: "";
+    width: 0;
+    background: #fff;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+.buscar input{
+    width: 150px;
+    height: 30px;
+}
+
+.div_img img{
+    width: 300px;
+    height: 400px;
+    margin-left: 4%;
+}
+
+h1{
+    margin-left: 3%;
+    color: #ffd103;
+}
+
+.div_img img {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(red, green, blue, alpha);
+    cursor: default;
+    transform: all 500ms ease;
+    border: solid rgb(0, 0, 0);
+}
+
+.div_img img:hover{
+    box-shadow: rgba(red, green, blue, alpha);
+    transform: translateY(-5%);
+}
+
+
